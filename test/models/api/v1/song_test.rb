@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SongTest < ActiveSupport::TestCase
+class Api::V1::SongTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
