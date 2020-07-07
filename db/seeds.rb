@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.destroy_all
 Song.destroy_all
- user1 = User.create!(name:"Greg",about:"I teach code and like beef",age:30,interest:"Beef,Beef and lots of Beef",location:'New York, NY', img_url:"https://ca.slack-edge.com/T02MD9XTF-U8H2RA3C1-643c8ce562ef-512")
+ user1 = User.create!(name:"Greg", username: "BeefBoi9000", password: "luv2grill", about:"I just love to reference arbitrary naming with the value of beef", age: 30, interest: "beef, like kobe, waygu, dry aged, you name it. Also rails.",location:'New York, NY', img_url:"https://ca.slack-edge.com/T02MD9XTF-U8H2RA3C1-643c8ce562ef-512")
 
 Song.create!(user_id:user1.id, title:'Come Thru', file:"Come Thru.mp3", img_url:"https://m.media-amazon.com/images/I/61f-i3tfy-L._SS500_.jpg")
 
