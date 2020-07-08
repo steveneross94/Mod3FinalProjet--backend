@@ -4,7 +4,7 @@ class Api::V1::UsersController < ApplicationController
  render json: users, include:[:comments,:pictures,:songs]
   end
   def show
-    user = User.find_by(id: params[:id])
+    user = User.find_by(id:params[:id])
     render json: user, include:[:comments,:pictures,:songs]
      end
 end

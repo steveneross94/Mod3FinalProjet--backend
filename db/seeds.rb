@@ -17,5 +17,5 @@ Song.create!(user_id:user1.id, title:'Heartless', file:"The Weeknd - Heartless (
 
 Song.create!(user_id:user1.id, title:"Ballin'", file:"Mustard - Ballin ft. Roddy Ricch.mp3", img_url:"https://m.media-amazon.com/images/I/61um10tv4EL._SS500_.jpg")
 
-# Song.create!(user_id:user1.id, title:"Baby Blue", file:"Baby Blue.mp3", img_url:"https://upload.wikimedia.org/wikipedia/en/3/38/Action_Bronson_Mr._Wonderful.jpg")
+Song.create!(user_id:user1.id, title:"Baby Blue", file:"Baby Blue.mp3", img_url:"https://upload.wikimedia.org/wikipedia/en/3/38/Action_Bronson_Mr._Wonderful.jpg")
 
