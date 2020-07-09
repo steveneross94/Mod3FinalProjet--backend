@@ -25,6 +25,5 @@ Song.create!(user_id:user1.id, title:"White Iverson", file:"Post Malone - White 
 
 Song.create!(user_id:user1.id, title:"Highest in The Room", file:"Travis Scott - HIGHEST IN THE ROOM (Audio).mp3", img_url:"https://m.media-amazon.com/images/I/81QTDhIVxvL._SS500_.jpg")
 
-
 Song.create!(user_id:user1.id, title:"I Saw Tiger", file:"I Saw A Tiger By Joe Exotic Tiger King Netflix.mp3", img_url:"https://i.kfs.io/album/global/71742454,0v1/fit/500x500.jpg")
 
